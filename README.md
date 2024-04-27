@@ -1,0 +1,1 @@
+# rules-technical-challenge-regular
