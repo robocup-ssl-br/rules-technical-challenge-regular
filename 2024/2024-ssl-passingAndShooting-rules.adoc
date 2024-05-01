@@ -1,6 +1,6 @@
 :source-highlighter: highlightjs
 
-= RoboCup Brasil 2024 SSL Passing and Shooting
+= RoboCup Brazil 2024 SSL Passing and Shooting
 {docdate}
 :toc:
 :stem: latexmath
