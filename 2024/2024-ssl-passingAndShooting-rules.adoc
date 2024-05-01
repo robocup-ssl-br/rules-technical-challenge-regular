@@ -41,7 +41,7 @@ There will be five different situations in random order that teams have to handl
 * Immediately afterward, a *FORCE START* command will be issued and the timer will start.
 * A goal can be scored only when the kicking robot is in the opponent’s half.
 * The team has *20s* to score a goal. Afterward, the trial is over.
-* As soon as a goal is scored or the ball leaves the field, it will be placed again in one of the defined situations.
+* As soon as a goal is scored or the ball leaves the field, it will be placed again in one of the defined situations. In the case of a goal, the clock is stopped, and the total time is counted for the attempt. If the ball leaves the field, the trial is over and is counted with 20s.
 * Every team has to perform the three trials of each scenario or can withdraw a trial, counting 20s.
 * After 5min a *HALT* command will be issued and the challenge is over.
 
