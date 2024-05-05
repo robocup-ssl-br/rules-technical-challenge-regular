@@ -1,0 +1,61 @@
+:source-highlighter: highlightjs
+
+= RoboCup Brazil 2024 SSL Scoring from contested possession
+{docdate}
+:toc:
+:sectnumlevels: 0
+
+// add icons from fontawesome in a up-to-date version
+ifdef::backend-html5[]
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+++++
+endif::backend-html5[]
+
+:icons: font
+:numbered:
+
+NOTE: References to the male gender in the rules with respect to referees, team
+members, officials, etc. are for simplification and apply to both males and
+females.
+
+== Goals of the Technical Challenge
+
+The objective of this challenge is to score a goal as fast as possible in a situation where a static defender is protecting the ball from its own goal while also touching the ball. Besides that, other static defenders are positioned to complicate the play. A set of attackers needs to get the ball into possession without pushing the defender, get it around the defender with a possible pass and score a goal. This will test the capabilities of the robots to score goals, take the ball possession and make passes.
+
+=== Participation Requirements
+
+All teams of the Regular League are eligible and *are encouraged* to participate in this challenge.
+
+== Procedure
+
+There will be four different situations in random order that teams have to handle. The situations include the positions of the opponent robots. The ball is touching the defenders dribbler. The attacker is placed in front of the ball, exactly opposite of the defender. For each situation, the team has three trials, out of which the best counts.
+
+For each situation, the following procedure applies:
+
+. Up to **3** robots of the team are placed on the middle line.
+
+. A STOP command will be issued for exactly 5s to allow the team to prepare their robots.
+
+. Immediately afterwards, a **FORCE START** command will be issued and the timer will start.
+
+. The team has **20s** to score a goal. Afterwards, the trial is over.
+
+. The timer is stopped when a valid goal is scored.
+
+. Every team has to perform the three trials of each scenario, or can withdrawn a trial, counting 20s. 
+
+=== Rules
+
+The following rules apply for this challenge:
+
+. Normal Regular League match rules apply. If the team performs a foul or the ball leaves the field, the trial is over and is counted with 20s.
+
+. No human interference is allowed during each trial.
+
+
+=== Scoring
+
+For each scenario, the best out of the three trials counts. These four scores are summed up, then the fastest team wins.
+
+The TC reserves the right to change the evaluation procedure.
