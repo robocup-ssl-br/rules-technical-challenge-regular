@@ -88,3 +88,20 @@ The best try of each scenario will count.
 The partial points of each scenario will be summed. In case of ties, the times for the best try of each scenario will be summed, and the fastest team wins.
 
 The TC reserves the right to change the evaluation procedure. However, the total score will be limited to 6 points regardless of the number of successful passes.
+
+== Scenarios
+
+=== Scenario 1
+image::scenarios-passingAndShooting/scenario1.svg[Interactive,700,opts=interactive]
+
+=== Scenario 2
+image::scenarios-passingAndShooting/scenario2.svg[Interactive,700,opts=interactive]
+
+=== Scenario 3
+image::scenarios-passingAndShooting/scenario3.svg[Interactive,700,opts=interactive]
+
+=== Scenario 4
+image::scenarios-passingAndShooting/scenario4.svg[Interactive,700,opts=interactive]
+
+=== Scenario 5
+image::scenarios-passingAndShooting/scenario5.svg[Interactive,700,opts=interactive]
