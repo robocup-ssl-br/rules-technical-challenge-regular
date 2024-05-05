@@ -1,6 +1,6 @@
 :source-highlighter: highlightjs
 
-= RoboCup Brasil 2024 SSL Scoring from contested possession
+= RoboCup Brazil 2024 SSL Scoring from contested possession
 {docdate}
 :toc:
 :sectnumlevels: 0
