@@ -33,7 +33,7 @@ By focusing on the precise execution of passes, collaboration between robots, an
 All teams of the Regular League are eligible and *are encouraged* to participate in this challenge.
 
 == Procedure
-There will be five different situations in random order that teams have to handle. The situations include the positions of the opposing robots and the ball. Put up to robots on the field and score as many goals as possible within 300 seconds.
+There will be four different situations in random order that teams have to handle. The situations include the positions of the opposing robots and the ball. Put up to robots on the field and score as many goals as possible within 300 seconds.
 
 * To start, all robots must be placed on the middle line.
 * Opponent robots will be placed on the field as obstacles.
@@ -102,6 +102,3 @@ image::scenarios-passingAndShooting/scenario3.svg[Interactive,700,opts=interacti
 
 === Scenario 4
 image::scenarios-passingAndShooting/scenario4.svg[Interactive,700,opts=interactive]
-
-=== Scenario 5
-image::scenarios-passingAndShooting/scenario5.svg[Interactive,700,opts=interactive]
