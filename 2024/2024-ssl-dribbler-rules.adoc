@@ -29,7 +29,7 @@ All teams of the Regular League are eligible and *are encouraged* to participate
 
 == Procedure
 
-There will be four different situations in random order that teams have to handle. The situations include the positions of the opponent robots. The ball is touching the defenders dribbler. The attacker is placed in front of the ball, exactly opposite of the defender. For each situation, the team has three trials, out of which the best counts.
+There will be four different situations in random order that teams have to handle. They are specified in appendix <<Scenarios>>. The situations include the positions of the opponent robots. The ball is touching the defenders dribbler. The attacker is placed in front of the ball, exactly opposite of the defender. For each situation, the team has three trials, out of which the best counts.
 
 For each situation, the following procedure applies:
 
@@ -53,9 +53,14 @@ The following rules apply for this challenge:
 
 . No human interference is allowed during each trial.
 
-
 === Scoring
 
-For each scenario, the best out of the three trials counts. These four scores are summed up, then the fastest team wins.
+For each situation, the fastest time of each team is divided by the median over the fastest times per trial of all teams. These four scores are summed up. Based on the result, teams are ranked from low to high.
 
 The TC reserves the right to change the evaluation procedure.
+
+[appendix]
+
+== Scenarios
+
+include::scenarios-challenge-1.adoc[]
