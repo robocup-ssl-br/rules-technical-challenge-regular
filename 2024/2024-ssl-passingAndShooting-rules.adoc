@@ -1,0 +1,104 @@
+:source-highlighter: highlightjs
+
+= RoboCup Brazil 2024 SSL Passing and Shooting
+{docdate}
+:toc:
+:stem: latexmath
+:sectnumlevels: 0
+
+// add icons from fontawesome in a up-to-date version
+ifdef::backend-html5[]
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+++++
+endif::backend-html5[]
+
+:icons: font
+:numbered:
+
+NOTE: References to the male gender in the rules with respect to referees, team
+members, officials, etc. are for simplification and apply to both males and
+females.
+
+== Goals of the Technical Challenge
+
+In this challenge, the central objective is to test the ability of a set of attackers to score a goal by making at least one pass to an allied robot and finishing the play with a shot at the opponent's goal.
+
+Within a limited timeframe, the team needs to make as many successful passes as possible, culminating in a shot at the opponent's goal to complete the play. This challenge not only assesses the participants' technical skills but also their ability to work as a team and make quick, practical decisions during the match.
+
+By focusing on the precise execution of passes, collaboration between robots, and finishing the play with a shot at the opponent's goal, this challenge encourages innovation and continuous development in the SSL - Regular League.
+
+=== Participation Requirements
+
+All teams of the Regular League are eligible and *are encouraged* to participate in this challenge.
+
+== Procedure
+There will be four different situations in random order that teams have to handle. The situations include the positions of the opposing robots and the ball. Put up to robots on the field and score as many goals as possible within 300 seconds.
+
+* To start, all robots must be placed on the middle line.
+* Opponent robots will be placed on the field as obstacles.
+* A *STOP* command will be issued for exactly 5s to allow the team to prepare their robots.
+* Immediately afterward, a *FORCE START* command will be issued and the timer will start.
+* A goal can be scored only when the kicking robot is in the opponent’s half.
+* The team has *20s* to score a goal. Afterward, the trial is over.
+* As soon as a goal is scored or the ball leaves the field, it will be placed again in one of the defined situations. In the case of a goal, the clock is stopped, and the total time is counted for the attempt. If the ball leaves the field, the trial is over and is counted with 20s.
+* Every team has to perform the three trials of each scenario or can withdraw a trial, counting 20s.
+* After 5min a *HALT* command will be issued and the challenge is over.
+
+=== Pass Definitions 
+Teams are free in how they perform the passes. Definitions of a pass in general and additional constraints for valid pass that are considered in the scoring are given in this section.
+
+A pass is defined as follows:
+
+* A pass has a source position, a target position, and a shooter.
+* The source position is where a robot kicks the ball.
+* The target position is where the ball stops or changes direction by more than *30 degrees* in the field plane (x, y).
+* The shooter is the robot located nearest to the source position when the pass starts.
+* The pass distance is the Euclidean distance between the source and target position.
+* The pass direction is the orientation of the `target - source` vector.
+* The pass is considered *chipped*, if the ball reached a maximum height of at least *15cm*.
+
+NOTE: Only passes and shots made using the kicker will be considered.
+
+=== Rules
+The following rules apply to this challenge:
+
+* Normal Regular League match rules apply. If the team performs a foul or the ball leaves the field, the trial is over and is counted with 20s.
+* No human interference is allowed during each trial.
+
+=== Scoring
+Points will be awarded based on the number of successful passes made before scoring a goal. We will use the following formula to calculate the total score:
+
+latexmath:[Total Score = min(passGround * 1 + passChipped * 2), 6) * isGoal]
+ 
+Where:
+`passGround` is the number of valid ground passes.
+`passChipped` is the number of valid chipped passes.
+`isGoal` is a boolean value that is true if a goal is scored and false otherwise.
+
+Passes are scored as follows:
+
+* A valid ground pass -- *1 point*
+* A valid chipped pass -- *2 points*
+
+However, the total score will be limited to 6 points regardless of the number of successful passes.
+
+The best try of each scenario will count.
+
+The partial points of each scenario will be summed. In case of ties, the times for the best try of each scenario will be summed, and the fastest team wins.
+
+The TC reserves the right to change the evaluation procedure. However, the total score will be limited to 6 points regardless of the number of successful passes.
+
+== Scenarios
+
+=== Scenario 1
+image::scenarios-passingAndShooting/scenario1.svg[Interactive,700,opts=interactive]
+
+=== Scenario 2
+image::scenarios-passingAndShooting/scenario2.svg[Interactive,700,opts=interactive]
+
+=== Scenario 3
+image::scenarios-passingAndShooting/scenario3.svg[Interactive,700,opts=interactive]
+
+=== Scenario 4
+image::scenarios-passingAndShooting/scenario4.svg[Interactive,700,opts=interactive]
