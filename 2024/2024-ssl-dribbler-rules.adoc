@@ -63,4 +63,18 @@ The TC reserves the right to change the evaluation procedure.
 
 == Scenarios
 
-include::scenarios-challenge-1.adoc[]
+=== Scenario 1
+
+image::images/dribbler_scenarios/scenario_1.svg[Interactive,opts=interactive]
+
+=== Scenario 2
+
+image::images/dribbler_scenarios/scenario_2.svg[Interactive,opts=interactive]
+
+=== Scenario 3
+
+image::images/dribbler_scenarios/scenario_3.svg[Interactive,opts=interactive]
+
+=== Scenario 4
+
+image::images/dribbler_scenarios/scenario_4.svg[Interactive,opts=interactive]
