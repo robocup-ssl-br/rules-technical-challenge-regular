@@ -92,13 +92,13 @@ The TC reserves the right to change the evaluation procedure. However, the total
 == Scenarios
 
 === Scenario 1
-image::scenarios-passingAndShooting/scenario1.svg[Interactive,700,opts=interactive]
+image::images/passing_and_shooting_scenarios/scenario1.svg[Interactive,700,opts=interactive]
 
 === Scenario 2
-image::scenarios-passingAndShooting/scenario2.svg[Interactive,700,opts=interactive]
+image::images/passing_and_shooting_scenarios/scenario2.svg[Interactive,700,opts=interactive]
 
 === Scenario 3
-image::scenarios-passingAndShooting/scenario3.svg[Interactive,700,opts=interactive]
+image::images/passing_and_shooting_scenarios/scenario3.svg[Interactive,700,opts=interactive]
 
 === Scenario 4
-image::scenarios-passingAndShooting/scenario4.svg[Interactive,700,opts=interactive]
+image::images/passing_and_shooting_scenarios/scenario4.svg[Interactive,700,opts=interactive]
