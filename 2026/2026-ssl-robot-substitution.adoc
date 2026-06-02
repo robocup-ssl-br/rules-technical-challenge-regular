@@ -38,9 +38,9 @@ The evaluation of this technical challenge consists in two procedures: the first
 
 === Robot substitution - red cards
 
-This procedure consists in an automatic robot subistitution when a team gets a red card.
-Setup the game controller as a normal match
-at least, two robots of the team that is doing the challenge
+This procedure consists in an automatic robot subistitution when a team gets a red card. First of all, the game controller and autoref must be set up as in normal match conditions. The teams are able to use not mor than 6 robots.
+
+
 MULTIPLE_CARDS
 TOO_MANY_ROBOTS
 center line substitution area
@@ -55,11 +55,13 @@ encourage telemetry implemetation
 
 center line substitution area
 non changes at code during the atempt
+no changes at firmware during the atempt
 
 
 === Scoring
 red card - 1 point
-hardware issue - 2 points
+low battery issue - 2 points
+other hardware issue - 1 point
 
 
 
