@@ -24,7 +24,7 @@ females.
 
 In this challenge, the main goal is to test the ability of the team to perform a robot substitution without a field interview of the robot handler.
 
-In specific game scenarios, as red cards and hardware issues, the robot handler needs to ask the referee for a robot substitution, leading to game stops and non dynamic matches. This challenge arises as an  incentive to teams to develop the skill of automatic substitution, where the robot places itself at a substitution area.
+In specific game scenarios, as red cards and hardware issues, the robot handler needs to ask the referee for a robot substitution, leading to game stops and non dynamic matches. This challenge arises as an  incentive to teams to develop the skill of automatic placement at the substitution area, where the robot places itself and the robot handler can remove it without ask the referee.
 
 Aiming to establish a dynamic match that requires minimal human intervention, this challenge encourages innovation and continuous development in the SSL - Regular League, as software improvements and telemetry implementations.
 
@@ -34,41 +34,41 @@ All teams of the Regular League are eligible and *are encouraged* to participate
 
 == Procedure
 
-The evaluation of this technical challenge is divided into two procedures. The first concerns a red-card scenario, where a team incurs successive fouls and must remove one robot from play as a penalty. The second concerns a hardware failure scenario, specifically a low-battery condition, in which a robot must be removed to ensure continued operation of the team.
+The evaluation of this technical challenge is divided into two procedures. The first concerns a too many robots scenario, where a team presents more robots than is allowed, usually caused by red-cards, and must remove one robot from the field. The second concerns a hardware failure scenario, specifically a low-battery condition, in which a robot must be removed to ensure continued operation of the team.
 
 === Robot Substitution - Too Many Robots
 
-This procedure consists of an automatic robot substitution when a team receives a red card. First, the Game Controller and the AutoRef must be configured under normal match conditions. The team is allowed to use no more than six robots. During the evaluation, a member of the Technical Committee must be present to validate the procedure. To simulate the opponent's robots, robot shells with a different center-dot color must be used.
+This procedure consists of an automatic robot placement at substitution area when a "TOO_MANY_ROBOTS" event occurs. First, the Game Controller and the AutoRef must be configured under normal match conditions. The team is allowed to use no more than six robots. During the evaluation, a member of the Technical Committee must be present to validate the procedure. To simulate the opponent's robots, robot shells with a different center-dot color must be used.
 
-Using the game controller, the TC member will start the match. After that, the TC member will manually assign red cards to the team performing the challenge until the AutoRef detects and reports the event "TOO_MANY_ROBOTS". This event occurs when the number of robots allowed on the field becomes lower than the number of robots currently present due to the accumulated penalties.
+Using the game controller, the TC member will start the match. After that, the TC member will manually assign red cards to the team that is performing the challenge until the AutoRef detects and reports the event "TOO_MANY_ROBOTS". This event occurs when the number of robots allowed on the field becomes lower than the number of robots currently present due to the accumulated penalties.
 
-Therefore, one of the team's robots needs to removed following the <<Rules>>.
+Therefore, one of the team's robots needs to be placed at the substitution area and removed following the <<Rules>>.
 
 === Robot Substitution - Low Battery
 
-This procedure consists of an automatic robot substitution when one of them presents a low battery warning. First, the Game Controller and the AutoRef must be configured under normal match conditions. The team is allowed to use no more than six robots. During the evaluation, a member of the Technical Committee must be present to validate the procedure. To simulate the opponent's robots, robot shells with a different center-dot color must be used.
+This procedure consists of an automatic robot placement at substitution area when one of them presents a low battery warning. First, the Game Controller and the AutoRef must be configured under normal match conditions. The team is allowed to use no more than six robots. During the evaluation, a member of the Technical Committee must be present to validate the procedure. To simulate the opponent's robots, robot shells with a different center-dot color must be used.
 
 Before the atempt, the TC member will request two batteries from the team: one with nominal voltage condition and another one with less than the nominal voltage. Is an obligation of the team to show the TC member the number of cells and the voltage measurement of both batteries.
 
+In the first moment, one of the robots needs to be setted up with the battery in nominal voltage.Then, the designated robot needs to be placed far from the center substitution area. After that, the TC member will start the match in the game controller.
 
+Following this, in the second moment, the designated robots needs to be setted up with the battery in low voltage condition.Then, it's placed far from the center substitution area. Finally, the TC member will start the match in the game controller.
 
-telemetry
-low battery warning
-encourage telemetry implemetation
-
-responsa do juiz verificar a beteria, memnro do tmie coloca ela no rovo
-
-Therefore, one of the team's robots needs to removed following the <<Rules>>.
+Therefore, the desired robot with low battery needs to removed following the <<Rules>>.
 
 === Rules
 
-To perform , it can be taken out following all the conditions below:
+
+No changes at code during the atempt are allowed
+No changes at firmware during the atempt are allowed
+No changes at hardware during the atempt are allowed (except the battery change)
+
+To perform the robot substitution, it can be taken out following all the conditions below:
 
 1. The robot is in its team’s substitution area.
 2. The ball must be at least 0.5 meters away from the robot.
 
-no changes at code during the atempt
-no changes at firmware during the atempt
+
 
 
 === Scoring
