@@ -1,6 +1,6 @@
 :source-highlighter: highlightjs
 
-= RoboCup Brazil 2024 SSL Regular Ball Placement Technical Challenge Rules
+= RoboCup Brazil 2026 SSL Regular Ball Placement Technical Challenge Rules
 {docdate}
 :toc:
 :sectnumlevels: 0
