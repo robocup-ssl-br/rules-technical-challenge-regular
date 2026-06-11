@@ -36,7 +36,7 @@ All teams of the Regular League are eligible and *are encouraged* to participate
 
 The evaluation of this technical challenge is divided into two procedures. The first concerns a too many robots scenario, where a team presents more robots than is allowed, usually caused by red-cards, and must remove one robot from the field. The second concerns a hardware failure scenario, specifically a low-battery condition, implying the need to replace the robot based on data acquired through telemetry.
 
-Each team has, at most, 3 tries for each scenario. If the team achive the goal of the attempt, no more tries are allowed.
+Each team has, at most, 3 tries for each scenario. If the team achive the goal of the scenario, no more tries are allowed.
 
 === Robot Substitution - Too Many Robots
 
@@ -80,11 +80,11 @@ The following scores are going to be used at the technical challenge evaluation:
 The following tiebreak criteria, listed in order of most relevance, are going to be used in case of ties:
 
 * Perform both robot substitution procedures;
-* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the first trie;
-* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the second trie;
-* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the third trie;
+* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the first attempt;
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event at the first attempt;
+* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the second attempt;
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event at the second attempt;
+* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the third attempt;
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event at the third attempt;
 
 
