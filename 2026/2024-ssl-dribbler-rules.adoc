@@ -53,6 +53,8 @@ The following rules apply for this challenge:
 
 . No human interference is allowed during each trial.
 
+. No changes to the hardware, firmware, or software are permitted during the technical challenge.
+
 === Scoring
 
 For each situation, the fastest time of each team is divided by the median over the fastest times per trial of all teams. These four scores are summed up. Based on the result, teams are ranked from low to high.

@@ -60,6 +60,8 @@ In scenarios 6 and 7, the ball must be placed with an **Y** value that the robot
 
 *Teams are allowed to use up to 6 robots*.
 
+*No changes to the hardware, firmware, or software are permitted during the technical challenge.*
+
 == Evaluation
 
 Every team places the ball in the same scenarios and has 20 minutes to complete all scenarios. The 20 minutes considers the time for completing the challenges and the time for setting up the scenarios, like positioning the ball each try. There are no restrictions on the quantity of tries per scenario, so each team can choose their own strategy to complete the challenge within the time.
