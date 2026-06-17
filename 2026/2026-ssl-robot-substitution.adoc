@@ -36,7 +36,7 @@ All teams of the Regular League are eligible and *are encouraged* to participate
 
 The evaluation of this technical challenge is divided into two procedures. The first concerns a too many robots scenario, where a team presents more robots than is allowed, usually caused by red-cards, and must remove one robot from the field. The second concerns a hardware failure scenario, specifically a low-battery condition, implying the need to replace the robot based on data acquired through telemetry.
 
-Each team has, at most, 3 tries for each scenario. If the team achive the goal of the scenario, no more tries are allowed.
+Each team has, at most, 3 tries for each scenario. If the team achieve the goal of the scenario, no more tries are allowed.
 
 === Robot Substitution - Too Many Robots
 
@@ -52,9 +52,9 @@ This procedure consists of an automatic robot placement at substitution area whe
 
 Before the attempt, the TC member will request two batteries from the team: one with nominal voltage condition and another one with less than the nominal voltage. Is an obligation of the team to show the TC member the number of cells and the voltage measurement of both batteries.
 
-In the first moment, one of the robots needs to be setted up with the battery in nominal voltage. Then, the designated robot needs to be placed far from the center substitution area. After that, the TC member will start the match in the game controller. The espected behavior of the desired robot is to keep in normal conditions of play.
+In the first moment, one of the robots needs to be settled up with the battery in nominal voltage. Then, the designated robot needs to be placed far from the center substitution area. After that, the TC member will start the match in the game controller. The expected behavior of the desired robot is to keep in normal conditions of play.
 
-Following this, in the second moment, the designated robots needs to be setted up with the battery in low voltage condition.Then, it's placed far from the center substitution area. Finally, the TC member will start the match in the game controller. The espected behavior of the desired robot is to move to the substitution area.
+Following this, in the second moment, the designated robots needs to be settled up with the battery in low voltage condition.Then, it's placed far from the center substitution area. Finally, the TC member will start the match in the game controller. The expected behavior of the desired robot is to move to the substitution area.
 
 == Rules
 
@@ -73,18 +73,18 @@ To perform the robot substitution, it can be taken out following all the conditi
 The following scores are going to be used at the technical challenge evaluation:
 
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event: + 2 point;
-* Places the dired robot setted up with a low voltage condition battery at the robot substitution area, according to telemetry data of the battery voltage: + 2 points;
-* Places the dired robot setted up with a normal voltage condition battery at the robot substitution area: - 1 points.
+* Places the desired robot settled up with a low voltage condition battery at the robot substitution area, according to telemetry data of the battery voltage: + 2 points;
+* Places the desired robot settled up with a normal voltage condition battery at the robot substitution area: - 1 points.
 
 === Tiebreak criteria
 The following tiebreak criteria, listed in order of most relevance, are going to be used in case of ties:
 
 * Perform both robot substitution procedures;
-* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the first attempt;
+* Places the desired robot settled up with a low voltage condition battery at the robot substitution area at the first attempt;
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event at the first attempt;
-* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the second attempt;
+* Places the desired robot settled up with a low voltage condition battery at the robot substitution area at the second attempt;
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event at the second attempt;
-* Places the dired robot setted up with a low voltage condition battery at the robot substitution area at the third attempt;
+* Places the desired robot settled up with a low voltage condition battery at the robot substitution area at the third attempt;
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event at the third attempt;
 
 
