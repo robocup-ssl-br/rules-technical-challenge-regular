@@ -1,6 +1,6 @@
 :source-highlighter: highlightjs
 
-= RoboCup Brazil 2026 SSL Robot Substitution
+= RoboCup Brazil 2026 SSL-EL Robot Substitution Technical Challenge Rules
 {docdate}
 :toc:
 :stem: latexmath
@@ -56,20 +56,19 @@ In the first moment, one of the robots needs to be setted up with the battery in
 
 Following this, in the second moment, the designated robots needs to be setted up with the battery in low voltage condition.Then, it's placed far from the center substitution area. Finally, the TC member will start the match in the game controller. The espected behavior of the desired robot is to move to the substitution area.
 
-== Rules
-
-The following rules are crucial for the technical challenge evaluation:
-
-* No changes at code during the attempt are allowed;
-* No changes at robot's firmware during the attempt are allowed;
-* No changes at robot's hardware during the attempt are allowed (except the battery change).
+=== Rules
 
 To perform the robot substitution, it can be taken out following all the conditions below:
 
 1. The robot is in its team’s substitution area.
 2. The ball must be at least 0.5 meters away from the robot.
 
-== Scoring
+NOTE: No changes to the hardware, firmware, or software are permitted during the technical challenge (except by the battery change).
+
+== Evaluation
+This section discribes the evaluation process, including the scoring and the tiebreak criteria.
+
+=== Scoring
 The following scores are going to be used at the technical challenge evaluation:
 
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event: + 2 point;
