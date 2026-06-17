@@ -1,6 +1,6 @@
 :source-highlighter: highlightjs
 
-= RoboCup Brazil 2026 SSL-EL Robot Substitution Technical Challenge Rules
+= RoboCup Brazil 2026 SSL Regular Robot Substitution Technical Challenge Rules
 {docdate}
 :toc:
 :stem: latexmath
@@ -66,9 +66,11 @@ To perform the robot substitution, it can be taken out following all the conditi
 NOTE: No changes to the hardware, firmware, or software are permitted during the technical challenge (except by the battery change).
 
 == Evaluation
-This section discribes the evaluation process, including the scoring and the tiebreak criteria.
+
+This section discribes the evaluation process, including the scoring and the tiebreak criteria. The TC reserves the right to change the evaluation procedure.
 
 === Scoring
+
 The following scores are going to be used at the technical challenge evaluation:
 
 * Places the robot at the robot substitution area at a "TOO_MANY_ROBOTS" game event: + 2 point;

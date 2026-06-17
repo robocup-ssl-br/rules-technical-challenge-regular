@@ -60,7 +60,7 @@ In scenarios 6 and 7, the ball must be placed with an **Y** value that the robot
 
 *Teams are allowed to use up to 6 robots*.
 
-*No changes to the hardware, firmware, or software are permitted during the technical challenge.*
+NOTE: No changes to the hardware, firmware, or software are permitted during the technical challenge.
 
 == Evaluation
 
@@ -69,6 +69,8 @@ Every team places the ball in the same scenarios and has 20 minutes to complete 
 The team is responsible for moving the ball to the right place each try. The TC will only check if the positions are correct and will operate the Game Controller.
 
 In total, there will be *8 scenarios* in this challenge. The order of the scenarios will be chosen by the team during the challenge, communicating the next scenario for the TC.
+
+The TC reserves the right to change the evaluation procedure.
 
 === Scoring
 
